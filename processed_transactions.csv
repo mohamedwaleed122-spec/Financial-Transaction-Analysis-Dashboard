@@ -1,0 +1,6 @@
+Amount,TransactionType,Status,TransactionDate
+1000,Deposit,Success,2026-07-01 09:15:00
+2500,Withdrawal,Success,2026-07-02 11:30:00
+700,Deposit,Failed,2026-07-03 14:45:00
+3200,Withdrawal,Success,2026-07-04 16:20:00
+4500,Deposit,Success,2026-07-05 10:05:00
