@@ -3,6 +3,12 @@
 ## 📌 Project Overview
 This project analyzes financial transaction data using SQL, Python, and Power BI to generate interactive dashboards and business insights.
 
+## Business Context
+
+Financial institutions process large volumes of transactions across different channels.
+Monitoring transaction amounts, deposits, withdrawals, and transaction success rates helps
+operations and business teams identify trends, monitor performance, and support financial decision-making.
+
 ## 🎯 Project Objectives
 - Analyze customer financial transactions.
 - Track deposits and withdrawals.
@@ -28,21 +34,31 @@ This project analyzes financial transaction data using SQL, Python, and Power BI
 - Transaction Trend Analysis
 - Navigation Buttons
 
-## 📈 Key Insights
-- Compare deposits and withdrawals.
-- Measure transaction success rate.
-- Analyze transaction trends over time.
-- Monitor transaction volume.
+## Key Insights
+
+- Total transaction amount reached 11,900.
+- Total deposits and withdrawals were approximately 6K each.
+- The transaction success rate was 80%.
+- Deposits and withdrawals showed a balanced overall transaction value.
+- Transaction trends can be monitored over time through the interactive dashboard.
 
 ## 📂 Project Structure
 ```
-Financial-Transaction-Analysis/
-│── data/
-│── financial_data.db
-│── main.py
-│── dashboard.pbix
-│── README.md
-```
+Financial-Transaction-Analysis-Dashboard/
+├── data/
+├── Financial_Transaction_Analysis.pbix
+├── financial_data.db
+├── processed_transactions.csv
+├── main.py
+├── database.py
+├── sql_queries.py
+├── charts.py
+├── line_chart.py
+├── financial_dashboard.py
+├── daily_sales.png
+├── dashboard.png
+└── README.md
+
 ## 📸 Dashboard Preview
 
 ![Dashboard](dashboard.png)
